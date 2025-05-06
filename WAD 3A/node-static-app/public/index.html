@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        background-color: #e0f7fa; /* light aqua background */
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff; /* white content background */
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+      }
+
+      header {
+        background-color: #00796b; /* teal header */
+        color: white;
+        padding: 1.5rem;
+        text-align: center;
+      }
+
+      main {
+        padding: 2rem 0;
+      }
+
+      footer {
+        background-color: #004d40; /* dark green footer */
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #26c6da; /* bright cyan button */
+        color: white;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: #00acc1; /* darker cyan on hover */
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 12px;
+      }
+
+      section h2 {
+        color: #00796b; /* match header color */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Static Website</h1>
+    </header>
+
+    <main class="container">
+      <section>
+        <h2>About This Website</h2>
+        <p>
+          This is a simple static website served by a Node.js application using
+          Express.
+        </p>
+        <p>You can modify this HTML file and add more content as needed.</p>
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>Fast and lightweight</li>
+          <li>Easy to modify</li>
+          <li>Served by Node.js + Express</li>
+          <li>Responsive and modern design</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact Me</h2>
+        <p>If you’d like to get in touch, click the button below:</p>
+        <a href="mailto:example@example.com" class="button">Email Me</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Static Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

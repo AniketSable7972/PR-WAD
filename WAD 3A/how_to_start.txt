@@ -1,0 +1,9 @@
+initialize the poject
+    cd node-static-app
+    npm init -y
+
+install express
+    npm install express
+
+run the server
+    node app.js
