@@ -14,5 +14,7 @@ Problem Statements:
 (3A) Create a Node.js application which serves a static website.
 
 (3B) Create four API using Node.js, Express.js, and MongoDB for CRUD operations on assignment 2.C
-**OR**
+
+OR
+
 (4A) Create a simple mobile website using jQuery Mobile.
