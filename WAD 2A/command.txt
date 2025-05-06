@@ -1,0 +1,47 @@
+Summary of what you achieved:
+    Created a local Git repo.
+    Connected it to a GitHub repo.
+    Committed all your code.
+    Pushed it to GitHub — now it’s live and version-controlled!
+
+
+
+✅ 1. Check Git version:
+git --version
+👉 This checks if Git is installed and tells you the installed version.
+
+
+✅ 2. Navigate to project folder:
+cd C:\Users\sspag\Desktop\sudoku-app
+👉 This changes directory (cd) to your project folder called sudoku-app on your Desktop.
+
+
+✅ 3. Initialize Git repository:
+git init
+👉 This sets up Git inside the folder, creating a hidden .git folder to track changes.
+
+
+✅ 4. Add remote repository (GitHub link):
+git remote add origin https://github.com/Aryan-Lokhande/Sudoku_Puzzle.git
+👉 This connects your local project to the GitHub repository named Sudoku_Puzzle.
+
+
+✅ 5. Add files to Git staging area:
+git add .
+👉 This stages all files (. means everything) so they’re ready to be committed.
+
+
+✅ 6. Commit files:
+git commit -m "Initial commit"
+👉 This saves your staged files into Git history with the message "Initial commit".
+
+
+✅ 7. Rename default branch to main:
+git branch -M main
+👉 This renames the local branch from the old default master to main (GitHub uses main as the default now).
+
+
+✅ 8. Push to GitHub:
+git push -u origin main
+👉 This uploads (pushes) your commits to GitHub under the main branch.
+The -u option also sets origin/main as the upstream, so in the future, you can just run git push without specifying the branch.
